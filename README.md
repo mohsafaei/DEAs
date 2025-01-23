@@ -17,6 +17,6 @@ University of Tehran, December 2024
 ### Within ABAQUS/CAE:
 
 - Open ABAQUS/CAE.
-  - Navigate to ** File > Run Script. **
+  - Navigate to **File > Run Script.**
   - Browse to your .py file, select it, and click OK to run the script.
 
