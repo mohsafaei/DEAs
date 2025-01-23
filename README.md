@@ -17,14 +17,6 @@ University of Tehran, December 2024
 ### Within ABAQUS/CAE:
 
 - Open ABAQUS/CAE.
-  _ Navigate to File > Run Script.
-      _ Browse to your .py file, select it, and click OK to run the script.
+  - Navigate to File > Run Script.
+      - Browse to your .py file, select it, and click OK to run the script.
 
-Ensure your script is compatible with ABAQUS's Python environment (based on Jython, a Python 2.7 implementation).
-Save the script with a .py extension.
-Locate ABAQUS Command Line:
-
-Open the ABAQUS Command Window:
-On Windows: Open the "Abaqus Command" shortcut from the Start Menu.
-On Linux: Open a terminal and ensure ABAQUS is in your system's PATH.
-Run the Script Using the Command Line:
