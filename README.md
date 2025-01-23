@@ -20,7 +20,7 @@ University of Tehran, December 2024
   - Navigate to **File > Run Script.**
   - Browse to your .py file, select it, and click OK to run the script.
 - Use the ABAQUS execution command if running the script outside CAE:
-```console
+```js
  abaqus job=job_name user=subroutine_name script=script_name.py
 ```
 
