@@ -14,11 +14,11 @@ University of Tehran, December 2024
 
 ## Steps to Run a Python Script in ABAQUS:
 
-Within ABAQUS/CAE:
+### Within ABAQUS/CAE:
 
 - Open ABAQUS/CAE.
   _ Navigate to File > Run Script.
-  _ Browse to your .py file, select it, and click OK to run the script.
+      _ Browse to your .py file, select it, and click OK to run the script.
 
 Ensure your script is compatible with ABAQUS's Python environment (based on Jython, a Python 2.7 implementation).
 Save the script with a .py extension.
