@@ -1,5 +1,5 @@
 # DEAs
-## In silico actuation performance investigation of dielectric elastomers with TPMS geometries[Link](https://doi.org/10.1016/j.euromechsol.2024.105540)
+## In silico actuation performance investigation of dielectric elastomers with TPMS geometries [(Link)](https://doi.org/10.1016/j.euromechsol.2024.105540)
 
 
 Part of the code for creating TPMS structures was developed by:<br/>
@@ -23,7 +23,7 @@ This project was done in **University of Tehran, December 2024**
   - Navigate to **File > Run Script.**
   - Browse to your .py file, select it, and click OK to run the script.
 - Use the ABAQUS execution command if running the script outside CAE:
-```console
+```python
  abaqus job=job_name user=subroutine_name script=script_name.py
 ```
 
