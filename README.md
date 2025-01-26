@@ -1,10 +1,8 @@
-# DEAs
 ## In silico actuation performance investigation of dielectric elastomers with TPMS geometries [(Link)](https://doi.org/10.1016/j.euromechsol.2024.105540)
 
 
 Part of the code for creating TPMS structures was developed by:<br/>
-- **Fayyaz Nosouhi**: [email](dehnavifn@gmail.com)
-- **Saeed Khaleghi**: [email](saeedkhaleghi123@gmail.com) <br/>
+- **Fayyaz Nosouhi**: [email](dehnavifn@gmail.com), **Saeed Khaleghi**: [email](saeedkhaleghi123@gmail.com) <br/>
 
 The remaining parts of the code, including the definition of DEA composites and their implementation in ABAQUS, were developed by:
 - **Mohammad Ali Safaei** [**Email**](mohammadsf1998@gmail.com), [**GoogleScholar**](https://scholar.google.com/citations?user=jD_-4JcAAAAJ&hl=fa) , [**Linkedin**](https://www.linkedin.com/in/mohsafaei) <br />  
