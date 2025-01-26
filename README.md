@@ -1,5 +1,5 @@
 # DEAs
-## [In silico actuation performance investigation of dielectric elastomers with TPMS geometries](https://doi.org/10.1016/j.euromechsol.2024.105540)
+## In silico actuation performance investigation of dielectric elastomers with TPMS geometries[Link](https://doi.org/10.1016/j.euromechsol.2024.105540)
 
 
 Part of the code for creating TPMS structures was developed by:<br/>
@@ -7,10 +7,11 @@ Part of the code for creating TPMS structures was developed by:<br/>
 - **Saeed Khaleghi**: [email](saeedkhaleghi123@gmail.com) <br/>
 
 The remaining parts of the code, including the definition of DEA composites and their implementation in ABAQUS, were developed by:
-- **Mohammad Ali Safaei** [**email**](mohammadsf1998@gmail.com), [**GoogleScholar**](https://scholar.google.com/citations?user=jD_-4JcAAAAJ&hl=fa) , [**Linkedin**](https://www.linkedin.com/in/mohsafaei) <br />
+- **Mohammad Ali Safaei** [**Email**](mohammadsf1998@gmail.com), [**GoogleScholar**](https://scholar.google.com/citations?user=jD_-4JcAAAAJ&hl=fa) , [**Linkedin**](https://www.linkedin.com/in/mohsafaei) <br />
 This Python script requires the use of a UEL subroutine, which implements the constitutive equations for a DEA element. In this regard, the UEL subroutine developed by Ehsan Hajiesmaili was utilized. 
-The UEL file and its explanation are available in the following research article: [Link](https://pubs.aip.org/aip/jap/article/129/15/151102/1025587/Dielectric-elastomer-actuators)  
-University of Tehran, December 2024
+The UEL file and is available in the supplementary files of the following research article: [Link](https://pubs.aip.org/aip/jap/article/129/15/151102/1025587/Dielectric-elastomer-actuators)  
+
+This project was done in **University of Tehran, December 2024**
 
 
 
