@@ -2,7 +2,7 @@
 
 
 
-<p>This repository contains the cores related to the research article titled [In silico actuation performance investigation of dielectric elastomers with TPMS geometries](https://doi.org/10.1016/j.euromechsol.2024.105540) which is published at *European Journal of Mechanics - A/Solids.* 
+<p>This repository contains the cores related to the research article titled <a href="https://doi.org/10.1016/j.euromechsol.2024.105540">In silico actuation performance investigation of dielectric elastomers with TPMS geometries</a>,which is published at *European Journal of Mechanics - A/Solids.* 
 
 
 Part of the code for creating TPMS structures was developed by:<br/>
