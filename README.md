@@ -1,4 +1,8 @@
-## In silico actuation performance investigation of dielectric elastomers with TPMS geometries [(Link)](https://doi.org/10.1016/j.euromechsol.2024.105540)
+![Alt text](img/Intro.png)
+
+
+
+<p>This repository contains the cores related to the research article titled [In silico actuation performance investigation of dielectric elastomers with TPMS geometries](https://doi.org/10.1016/j.euromechsol.2024.105540) which is published at *European Journal of Mechanics - A/Solids.* 
 
 
 Part of the code for creating TPMS structures was developed by:<br/>
