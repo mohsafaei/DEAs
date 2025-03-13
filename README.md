@@ -1,12 +1,19 @@
 <p>This repository contains the cores related to the research article titled <a href="https://doi.org/10.1016/j.euromechsol.2024.105540"><b>In silico actuation performance investigation of dielectric elastomers with TPMS geometries</b></a>,which is published at <i>European Journal of Mechanics - A/Solids.</i> 
 The picture below denotes a brief insight to this work
 
-![Alt text](img/Intro.png)
+![Alt text](Intro.png)
+
+
+| **In silico actuation performance investigation of dielectric elastomers with TPMS geometries** <a name="sg"></a> |
+|---|
+| **Description:** This project aims to provide new insights to Dielectric Elastomer Actuators with complex geometries. |
+| **Paper(s):** [Paper-Original](https://doi.org/10.1016/j.euromechsol.2024.105540) |
+| **Author(s):** Mohammad Ali Safaei $\bullet$ [Mostafa Baghani](https://scholar.google.com/citations?user=hbptgRoAAAAJ&hl=en) $\bullet$ [Majid Baniassadi](https://scholar.google.com/citations?user=sVnPip4AAAAJ&hl=en) $\bulllet$ [Mahdi Bodaghi](https://scholar.google.com/citations?user=Kgjbp-IAAAAJ&hl=en)|
 
 
 In the following, the details about this project is denoted. Also, the codes explanation and the way the are run is provided.
 
-Part of the code for creating TPMS structures was developed by:<br/>
+Special thanks to:<br/>
 - **Fayyaz Nosouhi**: [email](dehnavifn@gmail.com), **Saeed Khaleghi**: [email](saeedkhaleghi123@gmail.com) </br>
 
 The remaining parts of the code, including the definition of DEA composites and their implementation in ABAQUS, were developed by:
@@ -19,11 +26,12 @@ This project was done at **University of Tehran, December 2024**
 
 Co-authors of the article contains:
 
-## contribution statement
-- Mohammad Ali Safaei: Writing: original draft, Validation, Software, Methodology, Investigation, Formal analysis, Conceptualization.
-- [Mostafa Baghani](https://scholar.google.com/citations?user=hbptgRoAAAAJ&hl=en): Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis. 
-- [Majid Baniassadi](https://scholar.google.com/citations?user=sVnPip4AAAAJ&hl=en): Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis.
-- [Mahdi Bodaghi](https://scholar.google.com/citations?user=Kgjbp-IAAAAJ&hl=en): Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis.
+| contribution statement |
+|---|
+| [Mohammad Ali Safaei](https://mohsafaei.github.io/): Writing: original draft, Validation, Software, Methodology, Investigation, Formal analysis, Conceptualization. |
+| [Mostafa Baghani](https://scholar.google.com/citations?user=hbptgRoAAAAJ&hl=en): Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis. | 
+| [Majid Baniassadi](https://scholar.google.com/citations?user=sVnPip4AAAAJ&hl=en): Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis. |
+| [Mahdi Bodaghi](https://scholar.google.com/citations?user=Kgjbp-IAAAAJ&hl=en): Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis. |
 
 ## Steps to Run a Python Script in ABAQUS:
 
