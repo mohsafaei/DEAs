@@ -16,9 +16,8 @@ The figure below provides a brief visual insight into this study:
 ---
 ## Project Information
 
-| **Project Title** |
-|---|
-| **In Silico Actuation Performance Investigation of Dielectric Elastomers with TPMS Geometries** |
+| **Project Title** | **In Silico Actuation Performance Investigation of Dielectric Elastomers with TPMS Geometries** |
+|---|---|
 | **Description** | This project explores the actuation performance of DEAs with complex geometries using computational modeling. |
 | **Publication** | [Published Paper](https://doi.org/10.1016/j.euromechsol.2024.105540) |
 | **Authors** | Mohammad Ali Safaei, [Mostafa Baghani](https://scholar.google.com/citations?user=hbptgRoAAAAJ&hl=en), [Majid Baniassadi](https://scholar.google.com/citations?user=sVnPip4AAAAJ&hl=en), [Mahdi Bodaghi](https://scholar.google.com/citations?user=Kgjbp-IAAAAJ&hl=en) |
