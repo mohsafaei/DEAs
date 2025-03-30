@@ -1,47 +1,77 @@
-<p>This repository contains the cores related to the research article titled <a href="https://doi.org/10.1016/j.euromechsol.2024.105540"><b>In silico actuation performance investigation of dielectric elastomers with TPMS geometries</b></a>,which is published at <i>European Journal of Mechanics - A/Solids.</i> 
-The picture below denotes a brief insight to this work
+# In Silico Actuation Performance Investigation of Dielectric Elastomers with TPMS Geometries
 
-![Alt text](Intro.png)
+This repository contains the codes related to the research article titled **[In silico actuation performance investigation of dielectric elastomers with TPMS geometries](https://doi.org/10.1016/j.euromechsol.2024.105540)**, published in the *European Journal of Mechanics - A/Solids.*
 
+## Overview
 
-| **In silico actuation performance investigation of dielectric elastomers with TPMS geometries** <a name="sg"></a> |
+**Dielectric Elastomer Actuators (DEAs)** are a class of soft actuators that exhibit large deformations when subjected to an electric field. Due to their lightweight nature, high energy density, and fast response time, DEAs have attracted significant attention in fields such as soft robotics, biomedical devices, and adaptive structures.
+
+This research investigates the actuation performance of DEAs with **triply periodic minimal surface (TPMS) geometries**, providing new insights into their electromechanical behavior. The study employs numerical simulations and computational models to analyze how complex microstructures influence the performance of these actuators.
+
+### Visual Insight
+The figure below provides a brief visual insight into this study:
+
+![Insight Image](Intro.png)
+
+---
+## Project Information
+
+| **Project Title** |
 |---|
-| **Description:** This project aims to provide new insights to Dielectric Elastomer Actuators with complex geometries. |
-| **Paper(s):** [Paper-Original](https://doi.org/10.1016/j.euromechsol.2024.105540) |
-| **Author(s):** Mohammad Ali Safaei $\bullet$ [Mostafa Baghani](https://scholar.google.com/citations?user=hbptgRoAAAAJ&hl=en) $\bullet$ [Majid Baniassadi](https://scholar.google.com/citations?user=sVnPip4AAAAJ&hl=en) $\bulllet$ [Mahdi Bodaghi](https://scholar.google.com/citations?user=Kgjbp-IAAAAJ&hl=en)|
+| **In Silico Actuation Performance Investigation of Dielectric Elastomers with TPMS Geometries** |
 
+| **Description** | This project explores the actuation performance of DEAs with complex geometries using computational modeling. |
+| **Publication** | [Published Paper](https://doi.org/10.1016/j.euromechsol.2024.105540) |
+| **Authors** | Mohammad Ali Safaei, [Mostafa Baghani](https://scholar.google.com/citations?user=hbptgRoAAAAJ&hl=en), [Majid Baniassadi](https://scholar.google.com/citations?user=sVnPip4AAAAJ&hl=en), [Mahdi Bodaghi](https://scholar.google.com/citations?user=Kgjbp-IAAAAJ&hl=en) |
 
-In the following, the details about this project is denoted. Also, the codes explanation and the way the are run is provided.
+This repository includes details about the project, explanations of the provided codes, and instructions on how to run them.
 
-Special thanks to:<br/>
-- **Fayyaz Nosouhi**: [email](dehnavifn@gmail.com), **Saeed Khaleghi**: [email](saeedkhaleghi123@gmail.com) </br>
+## Acknowledgments
+Special thanks to:
+- **Fayyaz Nosouhi** ([Email](mailto:dehnavifn@gmail.com))
+- **Saeed Khaleghi** ([Email](mailto:saeedkhaleghi123@gmail.com))
 
-The remaining parts of the code, including the definition of DEA composites and their implementation in ABAQUS, were developed by:
-- <b>Mohammad Ali Safaei</b>: <a href= "mohammadsf1998@gmail.com"><b>Email address</b></a>, <a href= "https://scholar.google.com/citations?user=jD_-4JcAAAAJ&hl=fa"><b>Google Scholar</b></a>, 
-<a href= "https://www.linkedin.com/in/mohsafaei"><b>Linkedin</b></a>.</br>  
+The remaining parts of the code, including the implementation of DEA composites in ABAQUS, were developed by:
 
-This Python script requires the use of a UEL subroutine, which implements the constitutive equations for a DEA element. In this regard, the UEL subroutine developed by Ehsan Hajiesmaili was utilized.    
-The UEL file and is available in the supplementary material of the following research article: [Link](https://pubs.aip.org/aip/jap/article/129/15/151102/1025587/Dielectric-elastomer-actuators)  
-This project was done at **University of Tehran, December 2024**
+- **Mohammad Ali Safaei**  
+  [Email](mailto:mohammadsf1998@gmail.com) | [Google Scholar](https://scholar.google.com/citations?user=jD_-4JcAAAAJ&hl=fa) | [LinkedIn](https://www.linkedin.com/in/mohsafaei)
 
-Co-authors of the article contains:
+## Dependency: UEL Subroutine
 
-| contribution statement |
-|---|
-| [Mohammad Ali Safaei](https://mohsafaei.github.io/): Writing: original draft, Validation, Software, Methodology, Investigation, Formal analysis, Conceptualization. |
-| [Mostafa Baghani](https://scholar.google.com/citations?user=hbptgRoAAAAJ&hl=en): Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis. | 
-| [Majid Baniassadi](https://scholar.google.com/citations?user=sVnPip4AAAAJ&hl=en): Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis. |
-| [Mahdi Bodaghi](https://scholar.google.com/citations?user=Kgjbp-IAAAAJ&hl=en): Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis. |
+This Python script requires a **User Element (UEL) subroutine**, which implements the constitutive equations for a DEA element. The **UEL subroutine developed by Ehsan Hajiesmaili** was used in this project. The UEL file is available in the supplementary material of the following article:
 
-## Steps to Run a Python Script in ABAQUS:
+[Dielectric Elastomer Actuators – Constitutive Model](https://pubs.aip.org/aip/jap/article/129/15/151102/1025587/Dielectric-elastomer-actuators)
 
-### Within ABAQUS/CAE:
+This research was conducted at **the University of Tehran, December 2024**.
 
-- Open ABAQUS/CAE.
-  - Navigate to **File > Run Script.**
-  - Browse to your .py file, select it, and click OK to run the script.
-- Use the ABAQUS execution command if running the script outside CAE:
-```python
- abaqus job=job_name user=subroutine_name script=script_name.py
+---
+
+## Author Contributions
+
+| Contributor | Role |
+|---|---|
+| [Mohammad Ali Safaei](https://mohsafaei.github.io/) | Writing: original draft, Validation, Software, Methodology, Investigation, Formal analysis, Conceptualization |
+| [Mostafa Baghani](https://scholar.google.com/citations?user=hbptgRoAAAAJ&hl=en) | Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis |
+| [Majid Baniassadi](https://scholar.google.com/citations?user=sVnPip4AAAAJ&hl=en) | Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis |
+| [Mahdi Bodaghi](https://scholar.google.com/citations?user=Kgjbp-IAAAAJ&hl=en) | Writing – review & editing, Supervision, Methodology, Investigation, Formal analysis |
+
+---
+
+## Running the Python Script in ABAQUS
+
+### **Using ABAQUS/CAE:**
+1. Open **ABAQUS/CAE**.
+2. Navigate to **File > Run Script**.
+3. Browse to your `.py` file, select it, and click OK to run.
+
+### **Running Outside ABAQUS/CAE:**
+If running the script externally, use the following command:
+```sh
+abaqus job=job_name user=subroutine_name script=script_name.py
 ```
+Replace `job_name`, `subroutine_name`, and `script_name.py` with your specific file names.
+
+---
+
+This repository serves as a computational framework for further explorations into the electromechanical performance of **DEAs with complex geometries**. Contributions and discussions are welcome!
 
