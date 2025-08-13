@@ -1,14 +1,32 @@
-#=================================================================================================
-# In silico actuation performance investigation of dielectric elastomers with TPMS geometries
-# Link: https://doi.org/10.1016/j.euromechsol.2024.105540
-#=================================================================================================
-
-# Part of the code for creating TPMS structures was developed by Fayyaz Nosouhi (dehnavifn@gmail.com) and Saeed Khaleghi (saeedkhaleghi123@gmail.com).
-# The remaining parts of the code, including the definition of DEA composites and their implementation in ABAQUS, were developed by Mohammad Ali Safaei (mohammadsf1998@gmail.com).
-# This Python script requires the use of a UEL subroutine, which implements the constitutive equations for a DEA element. In this regard, the UEL subroutine developed by Ehsan Hajiesmaili was utilized. 
-# University of Tehran, December 2024
-
-#=================================================================================
+# ================================================================================================
+# If you find this file helpful, please consider citing our paper:
+#    "In silico actuation performance investigation of dielectric elastomers 
+#     with TPMS geometries"
+#    DOI: https://doi.org/10.1016/j.euromechsol.2024.105540
+# Thank you very much!
+# ================================================================================================
+# Description:
+#
+# This Python script contains the required classes and functions for the problem.
+# It requires the use of a UEL (User-Defined Element) subroutine that implements 
+# the constitutive equations for a Dielectric Elastomer Actuator (DEA) element.
+#
+# The UEL subroutine used here was originally developed and utilized in a previous study
+# by Ehsan Hajiesmaili:
+#    (https://scholar.google.com/citations?user=kMDnEAbNdxwC&hl=en)
+#
+# The main procedure for simulating the problem is defined in the 'main_TPMS.py' file.
+#
+# Contributions:
+#    - Implementation in Abaqus and FEM code development: Mohammad Ali Safaei
+#         (mohammadsf1998@gmail.com)
+#    - TPMS structure generation: Fayyaz Nosouhi (dehnavifn@gmail.com)
+#                                Saeed Khaleghi (saeedkhaleghi123@gmail.com)
+#
+# Affiliation:
+#    University of Tehran
+#    Date: September 2025
+# ================================================================================================
 
 from abaqus import *
 from abaqusConstants import *
@@ -686,4 +704,5 @@ def Run(MatParams,SimParams,uelFile,Voidelems_flat,RunNames):
 	#time2om = time.time()
 	#with open(RunNames[1]+'_dtl.txt', 'a') as f:          # creating a csv writer object
 	#	f.write('--- %% Run Information %% ---')
+
 	#	f.write('\nElapsed Time (in mins): {0}\n'.format((time2om-time1om)/60.0))
